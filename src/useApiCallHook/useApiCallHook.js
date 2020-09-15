@@ -18,7 +18,7 @@ export default function useApiCallHook(city, country) {
 		let cancel;
 
 		if(city && country){
-			console.log(city, country, API_KEY);
+			// console.log(city, country, API_KEY);
 			axios({
 			method:'GET',
 			url:`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`,
