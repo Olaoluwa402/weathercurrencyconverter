@@ -1,0 +1,9 @@
+.currency-app h2{
+	margin: 0;
+	margin-bottom: 0.5rem;
+}
+
+.currency-app .equals {
+	font-weight: bold;
+	font-size: 2rem;
+}
